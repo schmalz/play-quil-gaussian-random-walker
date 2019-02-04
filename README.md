@@ -1,6 +1,8 @@
 # play-quil-gaussian-random-walker
 
-A Quil sketch designed to ... well, that part is up to you.
+Something simple; a random walker that uses a Gaussian Distribution to determine
+its step size. It draws lines between successive points to more clearly show the
+effect.
 
 ## Usage
 
@@ -12,7 +14,7 @@ REPL - run `(require 'play-quil-gaussian-random-walker.core)`.
 
 ## License
 
-Copyright © 2016 FIXME
+Copyright © 2019 schmalz <;|-|-|-<
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
