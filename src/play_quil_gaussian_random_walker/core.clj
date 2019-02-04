@@ -54,4 +54,5 @@
   :draw draw-state
   :update next-state
   :middleware [m/fun-mode]
+  :features [:keep-on-top]
   :size [1600 900])
