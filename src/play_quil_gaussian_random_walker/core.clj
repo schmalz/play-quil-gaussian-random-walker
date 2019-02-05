@@ -33,8 +33,8 @@
   []
   (q/smooth)
   (q/color-mode :hsb 360 100 100)
-  (q/background 193 100 21)
-  (q/stroke 237 45 77)
+  (q/background 193 100 21) ; Solarized base03.
+  (q/stroke 237 45 77) ; Solarized violet.
   {:x1 (/ (q/width) 2)
    :y1 (/ (q/height) 2)
    :x2 (/ (q/width) 2)
@@ -55,4 +55,4 @@
   :update next-state
   :middleware [m/fun-mode]
   :features [:keep-on-top]
-  :size [1600 900])
+  :size [1458 901])
